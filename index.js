@@ -11,8 +11,8 @@ const {
    } = require("@solana/web3.js");
 
 //Generate new wallet keypair -> declare object newPair of type Keypair.
-//const newPair = new Keypair(); 
-//console.log(newPair);
+const newPair = new Keypair(); 
+console.log(newPair);
 
 //Extract public key from aaccountinfo and store it
 //in variable: myPubilcKey of type string.
